@@ -1,0 +1,43 @@
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.contentDashboard{
+    padding: 30px;
+}
+
+.rounded-20{
+    border-radius: 20px;
+}
+
+.card-header-personalized{
+    border-radius: 20px 20px 0 0 !important;
+    padding: 15px !important;
+}
+
+.body-revenue{
+    background: rgba(0,0,0,.03);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card-footer{
+    border-radius: 0 0 20px 20px !important;
+    padding: 15px !important;
+}
